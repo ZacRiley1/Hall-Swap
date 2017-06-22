@@ -12,12 +12,168 @@
     <meta name="keywords" content="University Halls Accomodation Uni Manchester">
     <meta name="author" content="Zac Riley">
 
-    <link href="_assets/css/landing.css" rel="stylesheet">  
+    <link href="_assets/css/landing.css" rel="stylesheet">
+    <link rel="stylesheet" href="_assets/css/animate.css">  
     <link rel="icon" href="_assets/img/x-icon.png">
 </head>
 <body>
-<p>Hello</p>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<input class="checkbox-cb" id="checkbox-cb" type="checkbox" />
+  <div class="cookie-bar">
+    <span class="message">This website uses cookies to give you the best experience. By using this website you agree to the <a href="#">Terms & Conditions</a></span>
+    <span class="mobile">This website uses cookies, <a href="#">learn more</a></span>
+    <label for="checkbox-cb" class="close-cb">x</label>
+  </div>
+
+  <header class="main_h">
+    <a href="#"><img id="h_logo" src="_assets/img/Logo_text.svg" alt="Logo"></a>
+    <nav class="main_nav">
+      <a href="#">What Is Hall Swap</a>
+      <a href="#">Why Swap</a>
+      <a href="#">The Process</a>
+      <a href="#">The Team</a>
+      <a href="#">Contact Us</a>
+
+      <div class="menu_ico" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+    </nav>
+    <nav id="sub_nav">
+    <a href="signup.html">Sign Up</a><hr id="menu_seperator">
+    <a href="#">Login</a>
+  </nav>
+  </header>
+  
 
 
+  <section id="banner">
+    <div class="wrapper">
+      <div class="content animated bounceInUp">
+
+        <a href="#"><img id="m_logo" src="_assets/img/Logo.svg" alt="Logo"></a>
+        <h1 class="tagline">NO HASSLE. NO STRESS. JUST HALL SWAP</h1>
+
+        <div class="button_wrapper">
+          <a href="#" class="button button_highlight">Learn More</a>
+          <a href="signup.html" class="button button_secondary">Get Started</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="mouse_wrapper animated fadeInUp">
+      <div class="mouse">
+        <span></span>
+      </div>
+    </div>
+  </section>
+
+   <section id="what_is">
+    <div class="wrapper">
+      <div class="content">
+        <hr>
+        <h1>What Is Hall Swap?</h1>
+        <hr>
+        <p>Each year tens of thousands of students across the UK are unhappy with the allocation of accommodation they receive from their university. As social experiences are a huge part of a student&#39;s life, feeling like you&#39;re &quot;missing out&quot; is worsened by today&#39;s social media hype and can even go as far as triggering depression as a consequence of a downward spiral of negative thinking.</p>
+
+        <p>Hall Swap creates a platform which allows students to change halls of accommodation stress and hassle free. Hall Swap uses a compatibility algorithm which matches students based on their current accommodation and preferred accommodation. The best thing is that our platform is integrated into university accommodation office systems which means that staff can manage, review and confirm swaps all in one place, making the currently cumbersome process quicker and a lot more efficient.</p>
+
+        <div class="button_wrapper">
+          <a href="#" class="button button_highlight">► Watch The Video </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why_swap" class="animated bounceInLeft">
+    <div class="wrapper">
+      <div class="content">
+        <hr>
+        <h1>Why Swap?</h1>
+        <hr>
+        <p>Coming to University requires years of hard work, planning and dedication. Staying in halls of Accommodation that aren't quite up to your standards can ruin your whole fresher's experience. Hall Swap finds you another student to swap room's with so you don't have to compromise.</p>
+        <div class="features">
+          <div class="row1">
+            <div class="feature" id="noisy">
+            <img id="noisy_img" src="_assets/img/landingicons/Speaker.svg" width="70px">
+              <h1>Too Noisy</h1>
+              <p>Prefer a quieter space to study and relax?</p>
+            </div>
+            <div class="feature" id="social">
+            <img id="social_img" src="_assets/img/landingicons/lonely.svg" width="70px">
+              <h1>Unsociable</h1>
+              <p>Want somewhere to make new friends or see more of old ones?</p>
+            </div>
+            <div class="feature" id="luxuries">
+            <img id="luxuries_img" src="_assets/img/landingicons/bath.svg" width="70px">
+              <h1>Luxuries</h1>
+              <p>Do shared bathrooms terrify you? No problem</p>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="feature" id="location">
+            <img id="location_img" src="_assets/img/landingicons/stopwatch.svg" width="70px">
+              <h1>Bad Location</h1>
+              <p>Too far from friends or university?</p>
+            </div>
+            <div class="feature" id="cost">
+            <img id="cost_img" src="_assets/img/landingicons/dollar.svg" width="70px">
+              <h1>Cost</h1>
+              <p>Can't afford your weekly rent anymore?</p>
+            </div>
+            <div class="feature" id="catering">
+            <img id="catering_img" src="_assets/img/landingicons/cutlery.svg" width="70px">
+              <h1>Catering Type</h1>
+              <p>Cook your own meals, Or don't!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrapper">
+      <div class="content">
+        <hr>
+        <h1>The Process</h1>
+        <hr>
+      </div>
+    </div>
+  </section>
+
+  <section id="team">
+    <div class="wrapper">
+      <div class="content">
+        <hr>
+        <h1>Our Team</h1>
+        <hr>
+      </div>
+    </div>
+  </section>
+
+   <section id="contact_us">
+    <div class="wrapper">
+      <div class="content">
+        <hr>
+        <h1>Get In Touch</h1>
+        <hr>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+  <div class="content">
+    <img src="_assets/img/logo_img.svg" alt="Footer Logo" width="50px">
+    <p>HallSwap Ltd &copy; 2017</p>
+  </div>
+  </footer>
+  <script src="_assets/js/index.js"></script>
 </body>
 </html>
